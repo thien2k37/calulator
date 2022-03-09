@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+<div>
+    <-- tính Điểm tb
+    <table id="TB">
+        <tr>
+            <th colspan="2">Tính Điểm Trung Bình</th>
+        </tr>
+
+        <tr>
+            <td>Nhập Điểm Vật Lý:</td>
+            <td><input id="vl" type="number"></td>
+        </tr>
+        <tr>
+            <td>Nhập Điểm Sinh Hoc:</td>
+            <td><input id="sh" type="number" ></td>
+        </tr>
+        <tr>
+            <td>Nhập Điểm Hóa Học:</td>
+            <td> <input id="hh" type="number" ></td>
+
+        </tr>
+        <tr>
+            <td><button onclick="bam()">Điểm Trung Bình</button></td>
+            <td><textarea id="kq">QK:</textarea></td>
+        </tr>
+
+    </table>
+
+
+<-- chuyên dổi Celsius > Fahrenheit
+
+    <table id="toa_do">
+
+        <tr>
+            <th>Celsius</th>
+            <th></th>
+            <th>Fahrenheit</th>
+        </tr>
+        <tr>
+            <th><input id="C" type="text"> </th>
+            <th> = </th>
+            <th><textarea id="F">QK:</textarea></th>
+        </tr>
+        <tr>
+            <th colspan="3"><button onclick="CD()">Chuyển Đổi</button></th>
+        </tr>
+    </table>
+    <-- S , CV
+
+    <table id="area">
+        <tr>
+            <th colspan="2">NHập Bán Kính</th>
+        </tr>
+        <tr>
+        <th colspan="2"><input id="r" type="text"> </th>
+        </tr>
+        <tr>
+            <th>Điện Tích Hình Tròn</th>
+            <th>Chu Vi Hình Tròn</th>
+        </tr>
+
+        <tr>
+            <th><textarea id="s" placeholder="Kết quả Diện Tích"></textarea></th>
+
+            <th><textarea id="cv" placeholder="Kết quả Chu vi"></textarea></th>
+        </tr>
+        <tr>
+            <th><button onclick="tinh()">Tính S</button></th>
+            <th><button onclick="tinh_cv()"> Tính CV</button></th>
+        </tr>
+    </table>
+
+
+</div>
+</body>
+</html>

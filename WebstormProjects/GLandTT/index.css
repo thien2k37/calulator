@@ -1,0 +1,21 @@
+
+#TB {
+    width: 500px;
+    height: 300px;
+    background: darkkhaki;
+
+}
+textarea {
+    width: 250px;
+    height: 50px;
+}
+#toa_do {
+    width: 500px;
+    height: 100px;
+    background: aquamarine;
+}
+#area {
+    width: 500px;
+    height: 300px;
+    background: orange;
+}
